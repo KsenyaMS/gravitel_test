@@ -1,0 +1,36 @@
+.layout {
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__form {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.layout__input {
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 0 10px;
+}
+
+.layout__button {
+    width: 90%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #ffd261;
+    border: 1px solid rgba(128, 128, 128, 0.43);
+    box-shadow: 0 0 10px #ffc861a2;
+    margin-left: auto;
+    margin-right: auto;
+}

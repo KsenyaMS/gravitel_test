@@ -1,0 +1,31 @@
+.page-layout {
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    margin-left: 30px;
+    margin-right: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__exit-button {
+    border-radius: 20px;
+    background-color: #ffd261;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #ffd261;
+}
+
+.header__title {
+    color: grey;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
